@@ -6,7 +6,7 @@ from reminder import send_email
 
 
 # Define your Google Sheets credentials JSON file (replace with your own)
-credentials_path = 'renewals-423611-a0e5b69ee774.json'
+credentials_path = 'newretail-b682d2880f30.json'
     
 # Authenticate with Google Sheets using the credentials
 credentials = service_account.Credentials.from_service_account_file(credentials_path, scopes=['https://spreadsheets.google.com/feeds'])
